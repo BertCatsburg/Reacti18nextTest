@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "sideEffects": [
+    "./components/i18n.js"
+  ],
   "dependencies": {
     "i18next": "^20.2.2",
     "i18next-browser-languagedetector": "^6.1.1",

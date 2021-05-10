@@ -10,7 +10,8 @@ const Welcome = () => {
         <React.Fragment>
             <h1 className={styles.title}>Welcome</h1>
 
-            <p>{t('Welcome to React')}</p>
+            <p>{t('WtR')}</p>
+
         </React.Fragment>
     )
 }

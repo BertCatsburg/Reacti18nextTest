@@ -15,10 +15,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to NextJS</h1>
+        <h1 className={styles.title}>Welcome to i18next testing</h1>
 
+          <p><Link href={'/orders/header'}><a>Go To Order Headers</a></Link></p>
 
-        <Link href={'/orders/header'}><a>Go To Order Headers</a></Link>
+          <p><Link href={'/system/changelanguage'}><a>Change the Language</a></Link></p>
 
       </main>
 

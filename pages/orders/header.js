@@ -1,5 +1,6 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
+import styles from "../../styles/Home.module.css";
 
 const OrderHeader = () => {
 
@@ -7,7 +8,7 @@ const OrderHeader = () => {
 
     return (
         <React.Fragment>
-            <h1>Order Headers</h1>
+            <h1 className={styles.title}>Order Headers</h1>
 
             <p>{t('Welcome to React')}</p>
         </React.Fragment>

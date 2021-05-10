@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to i18next testing</h1>
 
-          <p><Link href={'/orders/header'}><a>Go To Order Headers</a></Link></p>
+          <p><Link href={'/welcome'}><a>Go To Welcome screen</a></Link></p>
 
           <p><Link href={'/system/changelanguage'}><a>Change the Language</a></Link></p>
 

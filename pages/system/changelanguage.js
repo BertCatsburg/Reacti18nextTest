@@ -1,7 +1,6 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
 import styles from '../../styles/Home.module.css'
-import dynamic from "next/dynamic";
 
 const ChangeLanguage = () => {
 
@@ -9,14 +8,14 @@ const ChangeLanguage = () => {
 
     const {i18n} = useTranslation();
 
-    const onChangeLanguage = (langcode) => (event) => {
+    const onChangeLanguage = (langcode) => () => {
         console.log('About to change language to ' + langcode);
-        i18n.changeLanguage(langcode, (err, t) => {
+        i18n.changeLanguage(langcode, (err) => {
             if (err) {
                 console.log('Error callback on changeLanguage');
                 console.log(err);
             }
-        });
+        }).then(() => {});
     }
 
 

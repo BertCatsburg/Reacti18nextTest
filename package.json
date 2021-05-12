@@ -11,6 +11,7 @@
     "./components/i18n.js"
   ],
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "i18next": "^20.2.2",
     "i18next-browser-languagedetector": "^6.1.1",
     "i18next-http-backend": "^1.2.2",
